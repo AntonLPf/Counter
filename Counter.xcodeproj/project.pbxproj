@@ -13,6 +13,8 @@
 		3A9EC4062AD87E0300D9C29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EC4042AD87E0300D9C29B /* Main.storyboard */; };
 		3A9EC4082AD87E0400D9C29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EC4072AD87E0400D9C29B /* Assets.xcassets */; };
 		3A9EC40B2AD87E0400D9C29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EC4092AD87E0400D9C29B /* LaunchScreen.storyboard */; };
+		3A9EC4132AD924E100D9C29B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EC4122AD924E100D9C29B /* Counter.swift */; };
+		3A9EC4152AD93AEC00D9C29B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EC4142AD93AEC00D9C29B /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A9EC4072AD87E0400D9C29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9EC40A2AD87E0400D9C29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9EC40C2AD87E0400D9C29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9EC4122AD924E100D9C29B /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		3A9EC4142AD93AEC00D9C29B /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3A9EC4072AD87E0400D9C29B /* Assets.xcassets */,
 				3A9EC4092AD87E0400D9C29B /* LaunchScreen.storyboard */,
 				3A9EC40C2AD87E0400D9C29B /* Info.plist */,
+				3A9EC4122AD924E100D9C29B /* Counter.swift */,
+				3A9EC4142AD93AEC00D9C29B /* Logger.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9EC4152AD93AEC00D9C29B /* Logger.swift in Sources */,
+				3A9EC4132AD924E100D9C29B /* Counter.swift in Sources */,
 				3A9EC4032AD87E0300D9C29B /* ViewController.swift in Sources */,
 				3A9EC3FF2AD87E0300D9C29B /* AppDelegate.swift in Sources */,
 				3A9EC4012AD87E0300D9C29B /* SceneDelegate.swift in Sources */,
